@@ -14,7 +14,7 @@ npm install
 ```
 
 ## Naming conventions ##
-By default, your project name is `awayfl-template`. You can change this by opening `./package.json` and editing the `"name"` entry. You should also update the name visible in `./src/Main.ts` as this will be used to keep track of releases when publishing. Be sure to keep the `0.0.0` number at the end of the name as this is use to auto-increment version numbers.
+By default, your project name is `awayfl-template`. You can change this by opening `./package.json` and editing the `"name"` entry. You should also update the name visible in `./src/Main.ts` as this will be used to keep track of releases when publishing. Be sure to keep the `0.0.0` number at the end of the name as this is used to auto-increment version numbers.
 
 ## Configuration ##
 Open the `awayfl.config.js` file and add some SWF files to `fileconfigs`, including a `rt_title` and `rt_filename` entry (without the .swf extension), eg:
