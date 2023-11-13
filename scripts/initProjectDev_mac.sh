@@ -40,8 +40,5 @@ yarn link @awayfl/playerglobal
 echo [32m link "@awayfl/awayfl-player" module[0m
 yarn link @awayfl/awayfl-player
 
-echo [32m link "coolmath-player" module[0m
-yarn link coolmath-player
-
 read -n 1 -s -r -p "Press any key to continue . . ."
 exit
