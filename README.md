@@ -1,4 +1,4 @@
-# AwayFL Template
+see# AwayFL Template
 Template project for AwayFL Player
 
 ## Prerequistes ##
@@ -16,8 +16,9 @@ npm install
 ## Naming conventions ##
 By default, your project name is `awayfl-template`. You can change this by opening `./package.json` and editing the `"name"` entry. You should also update the name visible in `./src/Main.ts` as this will be used to keep track of releases when publishing. Be sure to keep the `0.0.0` number at the end of the name as this is used to auto-increment version numbers.
 
-## Configuration ##
-Open the `awayfl.config.js` file and add some SWF files to `fileconfigs`, including a `rt_title` and `rt_filename` entry (without the .swf extension), eg:
+## Configuration #
+1. Place your swf files in the `src/assets` Folder
+2. Open the `awayfl.config.js` file and add your SWF files to `fileconfigs`, including a `rt_title` and `rt_filename` entry (without the .swf extension), eg:
 ```javascript
 fileconfigs: [
     {
